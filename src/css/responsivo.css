@@ -1,0 +1,103 @@
+@media(min-width: 1500px){
+    html{
+        padding-top: 40px;
+    }
+    body{
+        margin: 0 auto;
+        background: rgba(103, 75, 177, 1) url('../images/bg-desktop.svg') no-repeat 40% center;
+        
+    }
+}
+
+@media(max-width: 1450px){
+    body{
+        margin: 40px auto;
+    }
+}
+
+@media(max-width:767px){
+    body{
+        padding: 3rem 7.5rem;
+        background:  rgba(103, 75, 177, 1) url('../images/bg-mobile.svg') no-repeat 0px -35px;
+        background-size: 100%;
+        margin: 0px;
+    }
+    header .logo img{
+        width: 25rem;
+    }
+
+    header{
+        padding-bottom: 11.7rem;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .copy{
+        text-align: center;
+        max-width: 57rem;
+        margin-top: 2rem;
+    }
+
+    main .copy h1{
+        font-size: 4.5rem;
+    }
+
+    main .copy p{
+        font-size: 3rem;
+        margin-bottom: 8.5rem;
+    }
+
+    .copy .btn{
+        font-size: 2.3rem;
+        padding: 2.5rem 14rem;
+        border-radius: 5rem;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .social-links{
+        margin-right: 0rem;
+        margin: 15rem auto;
+        margin-bottom: 10rem;
+        padding: 0rem;
+    }
+
+    li .fa-brands{
+        font-size: 2.5rem;
+        padding: 1.3rem 1rem;
+    }
+}
+
+
+@media(max-width: 500px){
+    html{
+        font-size: 40%;
+    }
+
+    footer .social-links{
+        margin-bottom: 5rem;
+    }
+}
+
+
+@media(max-width: 440px){
+    html{
+        font-size: 38%;
+    }
+}
+@media(max-width: 400px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width: 330px){
+    html{
+        font-size: 29%;
+    }
+}
+

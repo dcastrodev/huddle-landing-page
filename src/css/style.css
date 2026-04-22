@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: rgba(103, 75, 177, 1) url('../images/bg-desktop.svg') no-repeat -100px -53px;
+    background-size: auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    max-width: 1206px;
+    margin: 40px;
+}
+
+header .logo img{
+    width: 194px;
+}
+
+header{
+    padding-bottom: 8rem;
+}
+
+
+main{
+    display: flex;
+    gap: 5.3rem;
+    margin: 0 auto;
+    max-width: 150rem;
+}
+
+main .copy{
+    max-width: 51.4rem;
+    color: #fff;
+}
+
+main .copy h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin: 4.4rem 0rem;
+    margin-bottom: 2rem;
+}
+
+main .copy p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 3.8rem;
+}
+
+.copy .btn{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    padding: 1.5rem 6.4rem;
+    background-color: #fff;
+    color: rgba(103, 74, 180, 1);
+    border-radius: 3rem;
+    transition: 0.3s ease-in-out;
+    box-shadow: 1px 5px 20px rgb(61, 51, 92);
+}
+
+main img.huddle{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .social-links{
+    list-style: none;
+    margin-right: 1.6rem;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 1.3rem;
+}
+
+li .fa-brands{
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1rem 0.8rem;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+/*----ACTIVE STATES ---- */
+
+.social-links a:hover >*, .fa-brands:hover{
+    color: rgba(254, 81, 194, 1);
+    border: 1px solid rgba(254, 81, 194, 1);
+}
+
+main .btn:hover{
+    background-color: rgba(233, 128, 231, 1);
+    color: #fff;
+}
